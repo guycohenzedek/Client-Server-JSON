@@ -1,0 +1,13 @@
+#
+LOG_LEVEL=DEBUG
+
+LIBDIRS:= \
+-L../../../lib
+
+INCLUDEDIRS:= \
+-I../inc \
+-I../../config/inc \
+-I../../common/inc \
+-I../../network/inc \
+-I../../thread_pool/inc \
+-I../../build_parse_data/inc
